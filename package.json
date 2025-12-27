@@ -9,6 +9,7 @@
     "build": "npm --workspace frontend run build",
     "start": "npm --workspace frontend run start",
     "lint": "npm --workspace frontend run lint",
+    "typecheck": "npm --workspace frontend run typecheck",
     "install:frontend": "npm --workspace frontend install"
   }
 }
