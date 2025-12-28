@@ -1,5 +1,5 @@
 export default function Gallery() {
     return (
-        <div>Gallery</div>
+        <div>Gallery of you</div>
     );
 }
