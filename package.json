@@ -2,7 +2,8 @@
   "name": "art-sell-root",
   "private": true,
   "workspaces": [
-    "frontend"
+    "frontend",
+    "backend"
   ],
   "scripts": {
     "dev": "npm --workspace frontend run dev",
@@ -10,6 +11,11 @@
     "start": "npm --workspace frontend run start",
     "lint": "npm --workspace frontend run lint",
     "typecheck": "npm --workspace frontend run typecheck",
-    "install:frontend": "npm --workspace frontend install"
+    "backend:dev": "npm --workspace backend run start:dev",
+    "backend:start": "npm --workspace backend run start",
+    "backend:build": "npm --workspace backend run build",
+    "backend:prisma:generate": "npm --workspace backend run prisma:generate",
+    "install:frontend": "npm --workspace frontend install",
+    "install:backend": "npm --workspace backend install"
   }
 }
